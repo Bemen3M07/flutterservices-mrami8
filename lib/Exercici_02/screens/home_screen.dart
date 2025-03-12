@@ -18,9 +18,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = const <Widget>[
-    Page1(),
-    Page2(),
-    Page3(),
+    Pagina1(),
+    Pagina2(),
+    Pagina3(),
   ];
 
   @override
@@ -45,15 +45,15 @@ class _HomeScreenState extends State<HomeScreen> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Page 1',
+            label: 'Pagina 1',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business),
-            label: 'Page 2',
+            label: 'Pagina 2',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.school),
-            label: 'Page 3',
+            label: 'Pagina 3',
           ),
         ],
       ), // Center

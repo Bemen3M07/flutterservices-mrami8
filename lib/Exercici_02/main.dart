@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Provider Counter',
       theme: ThemeData(
-        primaryColor: Colors.purple,
+        primaryColor: const Color.fromARGB(255, 212, 0, 0),
       ),
       home: const HomeScreen(), // Scaffold
     ); // MaterialApp
