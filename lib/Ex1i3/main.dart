@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutterservice/providers/car_provider.dart';
-import 'package:flutterservice/page/cars_page.dart';
+import 'package:flutterservice/Ex1i3/providers/car_provider.dart';
+import 'package:flutterservice/Ex1i3/page/cars_page.dart';
 
 void main() {
   runApp(const MyApp());

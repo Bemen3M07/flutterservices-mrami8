@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterservice/model/car_model.dart';
+import 'package:flutterservice/Ex1i3/model/car_model.dart';
 
 class BorderContainer extends StatelessWidget {
   final CarsModel car;

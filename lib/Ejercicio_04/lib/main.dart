@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../Ejercicio_04/lib/controller/joke_controller.dart';
 
-
-
 void main() {
   runApp(MyApp());
 }
