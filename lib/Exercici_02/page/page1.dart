@@ -1,7 +1,8 @@
 
-import 'package:empty/Exercici_02/providers/counter_provider.dart';
+import 'package:flutterservice/Exercici_02/providers/counter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 
 class Page1 extends StatefulWidget {
   const Page1({super.key});

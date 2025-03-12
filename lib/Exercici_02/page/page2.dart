@@ -3,6 +3,7 @@ import 'package:flutterservice/Exercici_02/providers/counter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+
 class Page2 extends StatefulWidget {
   const Page2({super.key});
 
