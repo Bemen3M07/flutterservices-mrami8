@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Chistes Chistosos',
+      title: 'Acudits',
       home: JokeView(),
     );
   }
@@ -26,7 +26,7 @@ class JokeView extends StatefulWidget {
 
 class _JokeViewState extends State<JokeView> {
   final JokeController _controller = JokeController();
-  String _joke = 'Dale al boton para ver el chiste';
+  String _joke = 'La fiesta del humor';
 
   @override
   void initState() {
@@ -46,7 +46,7 @@ class _JokeViewState extends State<JokeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chistesito aleatorio'),
+        title: Text('Acudits en anglés'),
       ),
       body: Center(
         child: Padding(
@@ -60,7 +60,7 @@ class _JokeViewState extends State<JokeView> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _fetchJoke,
-        tooltip: 'OTRO!',
+        tooltip: 'Un altre acudit aleatori',
         child: Icon(Icons.refresh),
       ),
     );
